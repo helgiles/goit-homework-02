@@ -12,18 +12,18 @@ ul {
 /* header */
 
 .header-logo {
-	color: #2e2f42;
+	color: #4d5ae5;
 	font-family: 'Raleway', sans-serif;
 	font-size: 18px;
 	font-weight: 700;
-	line-height: 1.16667;
+	line-height: 1.17;
 	letter-spacing: 0.54px;
 	text-transform: uppercase;
 	text-decoration: none;
 }
 
-.accent {
-	color: #4d5ae5;
+.accent-header {
+	color: #2e2f42;
 }
 
 .header-link {
@@ -38,6 +38,10 @@ ul {
 .header-link:active,
 .header-link:focus {
 	color: #404bbf;
+}
+
+.address {
+	font-style: normal;
 }
 
 .contacts-link {
@@ -65,7 +69,7 @@ ul {
 	text-align: center;
 	font-size: 56px;
 	font-weight: 700;
-	line-height: 1.0714;
+	line-height: 1.07;
 	letter-spacing: 1.12px;
 }
 
@@ -75,9 +79,7 @@ ul {
 	font-weight: 500;
 	line-height: 1.5;
 	letter-spacing: 0.64px;
-	border-radius: 4px;
 	background: #4d5ae5;
-	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 	cursor: pointer;
 	border: none;
 	width: 169px;
@@ -175,14 +177,18 @@ ul {
 }
 
 .footer-logo {
-	color: #f4f4fd;
+	color: #4d5ae5;
 	font-family: 'Raleway', sans-serif;
 	font-size: 18px;
 	font-weight: 700;
-	line-height: 1.16667;
+	line-height: 1.17;
 	letter-spacing: 0.54px;
 	text-transform: uppercase;
 	text-decoration: none;
+}
+
+.accent-footer {
+	color: #f4f4fd;
 }
 
 .footer-text {
